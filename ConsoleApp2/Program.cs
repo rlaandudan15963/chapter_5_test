@@ -6,9 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    class parent
+    public abstract class parent
     {
+        private int a;
+        private int b;
+        public abstract int add();
+    }
 
+    class show : parent
+    {
+        public abstract int add()
+        {
+            return 
+        }
     }
     internal class Program
     {
