@@ -54,9 +54,9 @@ namespace ConsoleApp1
             }
         } 
     }
-    class Show_B : B
+    class Show_B : B  
     {
-        public Show_B(string str_b)
+        public Show_B(string str_b) 
         {
             this.str_b = str_b;
         }
