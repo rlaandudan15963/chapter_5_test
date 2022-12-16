@@ -11,7 +11,7 @@ namespace ConsoleApp2
         int a;
         int b;
         public int A { get { return a; } set { a = value; } }
-
+        public int B { get { return b; } set { b = value; } }
         public abstract int add();
     }
 
