@@ -44,6 +44,8 @@ namespace ConsoleApp2
             test = new show(6, 7);
             Console.WriteLine(test.add());
             Console.WriteLine(test.sub());
+            test = new show();
+            Console.WriteLine(test.add());
         } 
     }
 }
