@@ -19,7 +19,7 @@ namespace ConsoleApp2
     { 
         public show()
         {
-
+            A = B;
         }
         public show(int a, int b)
         {
