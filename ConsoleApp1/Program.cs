@@ -43,7 +43,7 @@ namespace ConsoleApp1
         public void Show()
         {
             Console.WriteLine(str_a);
-        }
+        } 
         public void Show_each(string a)
         {
             Console.WriteLine(a);
@@ -52,7 +52,7 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(str[i]);
             }
-        }
+        } 
     }
     class Show_B : B
     {
