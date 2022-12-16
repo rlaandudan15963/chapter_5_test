@@ -32,6 +32,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             show test = new show(3, 4);
+            Console.WriteLine(test.add());
         }
     }
 }
