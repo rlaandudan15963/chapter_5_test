@@ -16,18 +16,18 @@ namespace ConsoleApp2
     }
 
     class show : parent
-    {
+    { 
         public show(int a, int b)
         {
-            A = a;
+            A = a; 
             B = b; 
-        }
+        } 
         public override int add()
         {
             return A + B;
         } 
     }
-    internal class Program
+    internal class Program 
     {
         static void Main(string[] args)
         {
