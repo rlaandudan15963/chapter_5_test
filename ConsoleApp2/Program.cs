@@ -8,8 +8,8 @@ namespace ConsoleApp2
 { 
     public abstract class parent 
     {
-        int a;
-        int b;
+        int a = 3;
+        int b = 3;
         public int A { get { return a; } set { a = value; } }
         public int B { get { return b; } set { b = value; } }
         public abstract int add();
@@ -17,6 +17,10 @@ namespace ConsoleApp2
 
     class show : parent
     { 
+        public show()
+        {
+
+        }
         public show(int a, int b)
         {
             A = a; 
