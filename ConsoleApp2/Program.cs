@@ -10,6 +10,8 @@ namespace ConsoleApp2
     {
         int a;
         int b;
+        public int A { get { return a; } set { a = value; } }
+
         public abstract int add();
     }
 
