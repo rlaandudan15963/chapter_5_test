@@ -20,6 +20,7 @@ namespace ConsoleApp2
         public show(int a, int b)
         {
             A = a;
+            B = b;
         }
         public override int add()
         {
