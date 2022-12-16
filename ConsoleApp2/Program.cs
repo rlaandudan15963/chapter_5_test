@@ -8,16 +8,16 @@ namespace ConsoleApp2
 {
     public abstract class parent
     {
-        private int a;
-        private int b;
+        int a;
+        int b;
         public abstract int add();
     }
 
     class show : parent
     {
-        public abstract int add()
+        public override int add()
         {
-            return 
+            return this.a + 
         }
     }
     internal class Program
