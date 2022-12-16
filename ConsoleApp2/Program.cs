@@ -20,12 +20,12 @@ namespace ConsoleApp2
         public show(int a, int b)
         {
             A = a;
-            B = b;
+            B = b; 
         }
         public override int add()
         {
             return A + B;
-        }
+        } 
     }
     internal class Program
     {
