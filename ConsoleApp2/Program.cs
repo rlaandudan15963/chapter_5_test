@@ -26,6 +26,10 @@ namespace ConsoleApp2
         {
             return A + B;
         } 
+        public int sub()
+        {
+            return A - B;
+        }
     }
     internal class Program  
     { 
