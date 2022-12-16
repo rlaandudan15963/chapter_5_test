@@ -17,9 +17,13 @@ namespace ConsoleApp2
 
     class show : parent
     {
+        public show(int a, int b)
+        {
+            A = a;
+        }
         public override int add()
         {
-            return this.a + 
+            return A + B;
         }
     }
     internal class Program
